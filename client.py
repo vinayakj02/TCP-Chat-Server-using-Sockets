@@ -16,7 +16,7 @@ def keepListening():
                 recv_person = x[3]
                 text = x[4:]
                 text = style.color(text)
-                text = style.BOLD(text)
+                text = style.bold(text)
                 text = style.italics(text)
                 if recv_person==name:
                     print(f'{recv_person} : {" ".join(text)} (private)')
