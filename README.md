@@ -1,6 +1,10 @@
 # TCP Chat server using Sockets
 A chat server implemented using TCP Sockets in Python.
 
+![image](https://user-images.githubusercontent.com/74676945/177054838-a3d2b050-86d3-4a43-80b5-9c31f55cda6f.png) <br><br>
+![image](https://user-images.githubusercontent.com/74676945/177054914-85cb2b47-1fdb-42ec-8bbd-e40113b9fb8e.png) <br><br>
+![image](https://user-images.githubusercontent.com/74676945/177054984-8d0504da-618a-4a36-94ca-ae2b39b07c41.png) <br><br>
+
 ## Architecture
 - Client Server architecture based on Transmission Control Protocol (TCP).
 - Multiple clients connect to one central server which acts as host. 
