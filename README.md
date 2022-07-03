@@ -8,6 +8,13 @@ TCP is a connection-oriented protocol that is a dependable connection protocol.
 The chat application will be hosted on one server, with several clients
 connecting to it and communicating with one another.
 
+```mermaid
+  graph TD;
+      A[Server]---B[Client];
+      A[Server]---C[Client];
+      A[Server]---D[Client];
+```
+
 ## Feautures 
 * Clients (users) can join and leave the server (chat room).
 * Clients can only join the server if the server authorizes it.
